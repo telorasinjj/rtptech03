@@ -1,0 +1,178 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.masthead {
+    background-size: cover;
+    min-height: 100vh;
+    opacity: 0.9;
+
+}
+
+.slider{
+    margin: 30px;
+    padding-bottom: 150px;    
+    width: 1200px;
+    height: 100px;
+  
+  
+   
+   
+}
+.slider .inner{
+    margin: 0 auto;
+    padding: 15px;
+    width: 150px;
+    height: 150px; 
+    object-position: inherit;
+    flex-wrap: wrap;  
+    cursor: pointer;
+   
+    
+}
+
+.slider .inner img{
+    object-fit: fill;
+    width : 100%;
+    height: 100%;
+}
+
+
+.row .col-6 .btn {
+    margin-left: 100px;
+    text-align: center;
+    width: 450px;
+    height: 65px;
+    margin-bottom: 50px;
+    border: 3px solid yellowgreen;   
+    font-size: large;
+    font-weight: bold;
+    
+  
+    
+}
+.link .button {
+    
+    text-align: center;
+    justify-content: center;
+
+}
+.btn-provider .img-provider{   
+    max-width: 30%;
+    height:50px;
+    border-radius: 10px;
+    justify-content: center;
+}  
+ 
+
+.date{
+    text-align: center;
+}
+.Product .cards .card.hide {
+    display: none;
+
+}
+.Product .cards .card.show{
+    margin: 5px;
+    display: inline-block;
+    object-position: center;
+}
+
+ul{
+    display: flex;
+    flex-wrap: inherit;
+    width:inherit;
+    align-items: center;
+    object-fit: cover;
+    cursor: pointer;
+    
+   
+
+}
+ul li{
+    margin: 10px;        
+    border-color: coral;   
+    object-fit: fill;
+   
+    
+
+}
+ul li.active{
+    color:crimson
+
+}
+
+ul li img{
+    margin-top: 20px;
+    width: 200px;
+    height: 130px;
+    object-fit: fill;
+           
+}
+ul li img:hover{
+    transition: 0.3 ease ;
+    transform: scale(1.1);
+}
+.container .slider .inner .img-fluid{
+    margin: 15 auto;
+    padding: 0;    
+    border-color: rgb(5, 27, 228);   
+    width:  200px;
+    height: 125px;
+    aspect-ratio: 1;
+    object-fit: fill;    
+    align-items: baseline;
+    border-radius: 20px;
+    cursor:pointer; 
+    transition: 0 ease-in-out; 
+    
+    
+}
+.container .slider .inner:hover .img-fluid {
+    transform: scale(1.1);
+   
+}
+.list .container-fluid {
+    margin-left: 50px;
+    object-position: inherit;
+    box-sizing: border-box;
+   
+}
+
+.content .wrapper .card {
+    margin-left: 33px;
+    margin-bottom: 25px; 
+    width: 205px;;
+    height: 500px;
+    object-fit: fill;
+    background-color:#e0f7fa ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: small;
+    aspect-ratio: 1;
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+    border-color: rgb(241, 119, 4);
+    border-radius: 20px;
+   
+  
+  
+}
+.content .wrapper .card {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.content .wrapper .card:hover {        
+    transform: scale(1.1)
+
+
+}
